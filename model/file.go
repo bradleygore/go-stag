@@ -6,11 +6,15 @@ import (
 )
 
 type File struct {
-	BasePath string
-	Name     string
+	BasePath string // fully qualified path
 	PkgName  string
 	Structs  Structures
 	Imports  Imports
+}
+
+func (f File) FileName() string {
+	lastIdx := strings.LastIndex(f.BasePath, "/")
+	return f.BasePath[lastIdx+1:]
 }
 
 func (f File) BaseDir() string {
