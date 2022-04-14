@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/bradleygore/stag/model"
+	"github.com/bradleygore/go-stag/model"
 	toolsimports "golang.org/x/tools/imports"
 )
 

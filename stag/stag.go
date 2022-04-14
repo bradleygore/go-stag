@@ -65,7 +65,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bradleygore/stag/model"
+	"github.com/bradleygore/go-stag/model"
 )
 
 // cmd flags

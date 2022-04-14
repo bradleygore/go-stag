@@ -1,4 +1,4 @@
-module github.com/bradleygore/stag
+module github.com/bradleygore/go-stag
 
 go 1.14
 

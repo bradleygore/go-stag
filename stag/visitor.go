@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bradleygore/stag/model"
+	"github.com/bradleygore/go-stag/model"
 )
 
 type visitor struct {

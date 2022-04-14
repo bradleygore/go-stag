@@ -3,7 +3,7 @@ package sample
 import (
 	"time"
 
-	m "github.com/bradleygore/stag/sample/nested"
+	m "github.com/bradleygore/go-stag/sample/nested"
 )
 
 type User struct {

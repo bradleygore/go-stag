@@ -5,7 +5,7 @@ import (
 	"go/token"
 	"log"
 
-	"github.com/bradleygore/stag/model"
+	"github.com/bradleygore/go-stag/model"
 )
 
 type pkgImport struct {
